@@ -4,15 +4,14 @@ import {Link} from "gatsby"
 import Layout from '../components/layout'
 
 //Define Homepage
-const Homepage = () => {
+const Contact = () => {
 
   return (
-  <Layout pageTitle = 'Home'>
-    Hello world!
-  </Layout>
-
+    <Layout pageTitle = 'Contact'>
+        Hello world!
+    </Layout>
   )
 }
 
 //Export Homepage
-export default Homepage;
+export default Contact;
